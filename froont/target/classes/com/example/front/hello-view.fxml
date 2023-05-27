@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button layoutX="750.0" layoutY="567.0" mnemonicParsing="false" text="Добавить запись" />
+        <TableView layoutX="221.0" layoutY="25.0" prefHeight="467.0" prefWidth="675.0" styleClass="#f8ecc2">
+            <columns>
+                <TableColumn prefWidth="81.60005187988281" text="ID" />
+                <TableColumn prefWidth="111.99993896484375" text="NAME" />
+                <TableColumn prefWidth="91.99993896484375" text="WEIGHT" />
+                <TableColumn prefWidth="84.0" text="BIAS" />
+                <TableColumn prefWidth="143.199951171875" text="TOPOLOGY" />
+                <TableColumn minWidth="7.20001220703125" prefWidth="163.2000732421875" text="AFUNCTION" />
+            </columns>
+        </TableView>
+        <Button layoutX="33.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Удалить запись" />
+        <Button layoutX="33.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Изменить" />
+        <Button layoutX="33.0" layoutY="420.0" mnemonicParsing="false" text="Найти запись по ID" />
+        <Label layoutX="246.0" layoutY="500.0" prefHeight="17.0" prefWidth="109.0" text="Name" />
+        <Label layoutX="404.0" layoutY="500.0" text="Weight" />
+        <Label layoutX="512.0" layoutY="500.0" text="Bias" />
+        <Label layoutX="614.0" layoutY="500.0" text="Topology" />
+        <Label layoutX="743.0" layoutY="500.0" text="Afunction" />
+        <TextField layoutX="246.0" layoutY="533.0" prefHeight="25.0" prefWidth="141.0" />
+        <TextField layoutX="404.0" layoutY="533.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField layoutX="512.0" layoutY="533.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField layoutX="614.0" layoutY="533.0" prefHeight="25.0" prefWidth="122.0" />
+        <TextField layoutX="743.0" layoutY="533.0" prefHeight="25.0" prefWidth="122.0" />
+        <Button layoutX="33.0" layoutY="467.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Обновить данные" />
+    </children>
+</Pane>
